@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+:root {
+    --off-white: rgb(243, 243, 243);
+    --green: #596D48;
+    --input-color: #E5E7EB;
+    --valid: rgb(48, 86, 209);
+    --invalid: rgb(209, 48, 48);
+    --greyish: rgb(26, 26, 26);
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+.playwrite-cu-handwritten {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+input {
+    display: inline-block;
+}
+
+main {
+    min-width: 67.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    min-width: 32.5%;
+    background-image: url(/Images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 13rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    img {
+        width: 18%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        font-family: "Playwrite CU";
+    }
+}
+
+header {
+    background-color: var(--off-white);
+    padding: 3rem;
+    font-size: 1.1em;
+}
+
+header > * {
+    /* margin-right: 6em; */
+    max-width: 65ch;
+    
+    
+}
+
+.header-wrap {
+    padding-top: 5.3rem;
+}
+
+.singup-form {
+    /* height: 30%; */
+    color: var(--greyish);
+    padding: 0 3rem;
+
+    p {
+        font-size: 1.6em;
+        margin: 0.9rem 0;
+        font-weight: 500;
+    }
+
+    /* box-shadow: 0px 2px 10px -2px var(--greyish); */
+}
+
+input, label{
+    display:block;
+}
+
+input {
+    border-radius: 4px;
+    border: 2px solid rgb(163, 163, 163);
+    background-color: var(--input-color);
+    padding: 3px 3px 3px 10px;
+    width: 15rem;
+}
+
+input:valid {
+    border-color: #596D48;
+}
+
+input:invalid {
+    border-color: var(--invalid);
+}
+
+input:focus {
+    border-color:  var(--valid);
+    outline: none;
+    box-shadow: 1px 1px 5px black;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.account {
+    background-color: var(--off-white);
+    padding: 2rem 3rem;
+    flex: 1;
+
+    button {
+        background-color: var(--green);
+        padding: 0.9rem 3.2rem;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    p {
+        padding: 2.2rem 0;
+        font-weight: 500;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--green);
+        font-weight: 600;
+    }
+}
+
+button:hover {
+    background-color:#5f7e46;
+}
+
+button:active {
+    background-color: #3d6135;
+}
+
+
+.name-field, .contact-field, .password-field {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
+
