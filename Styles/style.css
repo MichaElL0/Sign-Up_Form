@@ -183,10 +183,9 @@ button:active {
     padding: 8px 0;
 }
 
-
-
-
-
-
-
-
+#pass-not {
+    position: absolute;
+    font-size: 1em;
+    color: var(--invalid);
+    display: none;
+}
