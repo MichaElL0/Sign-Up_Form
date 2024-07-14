@@ -59,7 +59,7 @@ main {
 
 aside {
     min-width: 32.5%;
-    background-image: url(/Images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(./Images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
