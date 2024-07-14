@@ -16,7 +16,7 @@ This is a sign-up form for an imaginary service. I made this for Odin Project.
 
 ### Screenshot
 
-![](Images/odin%20screen.jpg)
+![Image of sing up form page](./Images/odin%20screen.jpg)
 
 ### Demo
 https://michaell0.github.io/Sign-Up_Form/
