@@ -16,24 +16,18 @@ This is a sign-up form for an imaginary service. I made this for Odin Project.
 
 ### Screenshot
 
-![](url)
+![](Images/odin%20screen.jpg)
 
 ### Demo
-
+https://michaell0.github.io/Sign-Up_Form/
 
 ## Features
 
 A few of the things you can do with (app):
 
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+* Kinda sing up
+* Validate the sign up form
+* Look at my amazing css skills
 
 
 ## The process
@@ -41,8 +35,11 @@ A few of the things you can do with (app):
 
 ### Technologies
 
+* HTML and CSS
+* Flexbox
+* JavaScript
 
 ### My experience and what I've learned
-
+I've learned how to style and make proper forms. Again flexed(hehe) my skills in styling from the image. Learned basic about validating in HTML. That's it.
 
 ## Thank you for reading
