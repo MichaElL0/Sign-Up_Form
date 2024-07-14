@@ -26,7 +26,7 @@ https://michaell0.github.io/Sign-Up_Form/
 A few of the things you can do with (app):
 
 * Kinda sing up
-* Validate the sign up form
+* Validate the sign up form`
 * Look at my amazing css skills
 
 
