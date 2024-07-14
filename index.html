@@ -23,56 +23,58 @@
     </aside>
     <main>
         <header>
-            <h3>This is not a real online service. This is a dream. If you want to control your dreams and view them now, then this is place for you. Start dreaming right now.<br>Sign up <em>now</em> to get started</h3>
-            <br>
-            <h3>You <em>know</em> you want to.</h3>
+            <div class="header-wrap">
+                <h3>This is not a real online service. This is a dream. If you want to control your dreams and view them now, then this is place for you. Start dreaming right now.<br>Sign up <em>now</em> to get started</h3>
+                <br>
+                <h3>You <em>know</em> you want to.</h3>
+            </div>
         </header>
 
         <section class="singup-form">
             <p>Let's do this!</p>
             
-            <form action="POST">
+            <form action="form.html" method="get">
 
                 <div class="name-field">
                     <div class="input-wrap">
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <input type="text" name="first_name" id="first_name" required minlength="2" maxlength="20">
                     </div>
                     
                     <div class="input-wrap">
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <input type="text" name="last_name" id="last_name" required minlength="2" maxlength="20">
                     </div>
                 </div>
 
                 <div class="contact-field">
                     <div class="input-wrap">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required maxlength="20">
                     </div>
 
                     <div class="input-wrap">
                         <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" name="phone_number" id="phone_number">
+                        <input type="tel" name="phone_number" id="phone_number"  pattern="^([a-z\d\-_]+)@([a-z\d-_]+).([a-z]){2,6}$">
                     </div>
                 </div>
 
                 <div class="password-field">
                     <div class="input-wrap">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">                        
+                        <input type="password" name="password" id="password" required pattern="^(?=.*[A-Z])(?=.*\d).{8,16}$">                        
                     </div>
 
                     <div class="input-wrap">
                         <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
+                        <input type="password" name="confirm_password" id="confirm_password" required pattern="^(?=.*[A-Z])(?=.*\d).{8,16}$">
                     </div>
                 </div>
             </form>
         </section>
 
         <section class="account">
-            <button type="submit">Create Account</button>
+            <button type="submit" value="Submit">Create Account</button>
             
             <p>Already have an account? <a href="#" target="_blank">Log in</a></p>
         </section>
