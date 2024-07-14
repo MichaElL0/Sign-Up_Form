@@ -50,12 +50,12 @@
                 <div class="contact-field">
                     <div class="input-wrap">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" required maxlength="20">
+                        <input type="email" name="email" id="email" required maxlength="20" pattern="^([a-z\d\-_]+)@([a-z\d-_]+).([a-z]){2,6}$">
                     </div>
 
                     <div class="input-wrap">
                         <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" name="phone_number" id="phone_number"  pattern="^([a-z\d\-_]+)@([a-z\d-_]+).([a-z]){2,6}$">
+                        <input type="tel" name="phone_number" id="phone_number"  pattern="^[0-9]{9}$">
                     </div>
                 </div>
 

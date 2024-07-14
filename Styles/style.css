@@ -70,7 +70,7 @@ aside {
     align-items: center;
     gap: 15px;
     margin-top: 13rem;
-    padding: 1rem;
+    padding: 2rem;
     background-color: rgba(255, 255, 255, 0.6);
 
     img {
@@ -86,15 +86,12 @@ aside {
 
 header {
     background-color: var(--off-white);
-    padding: 3rem;
+    padding: 0 0rem 2rem 3rem;
     font-size: 1.1em;
 }
 
 header > * {
-    /* margin-right: 6em; */
     max-width: 65ch;
-    
-    
 }
 
 .header-wrap {
@@ -102,13 +99,12 @@ header > * {
 }
 
 .singup-form {
-    /* height: 30%; */
     color: var(--greyish);
     padding: 0 3rem;
 
     p {
         font-size: 1.6em;
-        margin: 0.9rem 0;
+        margin: 0.5rem 0;
         font-weight: 500;
     }
 
@@ -142,7 +138,7 @@ input:focus {
 }
 
 form {
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .account {
