@@ -12,7 +12,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Overview
-This is a sign-up form for an imaginary service. I made this for Odin Project.
+This is a sign-up form for an imaginary service. I made this for the Odin Project.
 
 ### Screenshot
 
@@ -25,8 +25,8 @@ https://michaell0.github.io/Sign-Up_Form/
 
 A few of the things you can do with (app):
 
-* Kinda sing up
-* Validate the sign up form`
+* Kinda sign up
+* Validate the sign-up form
 * Look at my amazing css skills
 
 
